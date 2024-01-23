@@ -1,0 +1,2 @@
+lsetup "lcgenv -p LCG_104c_ATLAS_6 x86_64-el9-gcc13-opt gcc"
+
