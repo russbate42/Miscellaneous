@@ -1,0 +1,8 @@
+
+ -- RUN THE FOLLOWING COMMAND --
+
+source /cvmfs/atlas.cern.ch/repo/sw/tdaq/tools/cmake_tdaq/bin/cm_setup.sh tdaq-09-04-00; # libpbeastpy library
+export PBEAST_SERVER_SSO_SETUP_TYPE=AutoUpdateKerberos # pbeast authentication
+setupATLAS
+asetup Athena,22.0.90 # COOL access
+
